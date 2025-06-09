@@ -1138,7 +1138,7 @@ GameObject:
   - component: {fileID: 599609115}
   - component: {fileID: 599609117}
   m_Layer: 0
-  m_Name: Finish Race
+  m_Name: Finish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7229,7 +7229,7 @@ GameObject:
   - component: {fileID: 1375170791}
   - component: {fileID: 1375170790}
   m_Layer: 0
-  m_Name: Start Race
+  m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9237,6 +9237,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1668415311}
     m_Modifications:
+    - target: {fileID: 232754471558475431, guid: 9857afcfe86343c44bbe47ee7437253b, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 232754471558475431, guid: 9857afcfe86343c44bbe47ee7437253b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c5230104d3a2a69479a91369c3765aea, type: 3}
     - target: {fileID: 982730635317641052, guid: 9857afcfe86343c44bbe47ee7437253b, type: 3}
       propertyPath: m_fontSize
       value: 35
@@ -9355,7 +9363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7770243918295652951, guid: 9857afcfe86343c44bbe47ee7437253b, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 112.1012
+      value: -234.4006
       objectReference: {fileID: 0}
     - target: {fileID: 7770243918295652951, guid: 9857afcfe86343c44bbe47ee7437253b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9391,7 +9399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7770243918295652951, guid: 9857afcfe86343c44bbe47ee7437253b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 56.051
+      value: 92.96704
       objectReference: {fileID: 0}
     - target: {fileID: 7770243918295652951, guid: 9857afcfe86343c44bbe47ee7437253b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9564,10 +9572,10 @@ SceneRoots:
   - {fileID: 461290959}
   - {fileID: 630220723}
   - {fileID: 947186547}
+  - {fileID: 1375170792}
   - {fileID: 2105755492}
   - {fileID: 409791877}
   - {fileID: 995166307}
   - {fileID: 1741252909}
-  - {fileID: 1375170792}
   - {fileID: 599609116}
   - {fileID: 1668415306}
